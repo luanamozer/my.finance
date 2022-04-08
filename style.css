@@ -108,10 +108,10 @@ table tbody td {
 td.description {
   color: var(--dark-blue);
 }
-td.income{
-  color #12a454;
+td.income {
+  color: #12a454;
 }
-td.expense{
+td.expense {
   color: #e92929;
 }
 
