@@ -4,6 +4,8 @@
   --dark-blue: #363f5f;
   --green: #49aa26;
   --light-green: #3dd705;
+  --purple: #820ad1;
+  --light-purple: #9c7eae;
   --red: #e92929;
 }
 * {
@@ -34,6 +36,19 @@ body {
   margin: auto;
 }
 
+.contain-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
 /**** TITLES *****/
 h2 {
   margin-top: 3.2rem;
@@ -45,12 +60,12 @@ h2 {
 
 /**** LINKS E BUTTONS ******/
 a {
-  color: var(--green);
+  color: var(--purple);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--light-green);
+  color: var(--light-purple);
 }
 button {
   width: 100%;
@@ -96,7 +111,7 @@ button:hover {
 /****** HEADER *******/
 
 header {
-  background: #2d4a22;
+  background: var(--purple);
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -142,7 +157,7 @@ header {
 }
 
 .card.total {
-  background: var(--green);
+  background: var(--light-purple);
   color: white;
 }
 /***** TABLE *****/
